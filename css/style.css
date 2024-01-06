@@ -17,7 +17,7 @@
 body{
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 100%;
 }
 header{
     display: flex;
@@ -34,6 +34,10 @@ header{
 }
 .un-header{
     margin-bottom: 24px;
+}
+.un-header img{
+    border-radius: 50%;
+    border: 1px solid var(--color-white1);
 }
 h1{
     text-align: center;
@@ -157,6 +161,7 @@ main{
 }
 footer {
     margin-top: 32px; 
+    margin-bottom: 32px;
     text-align: center;
     font-family: var(--font);
     font-size: var(--fontsite-p-mobile);
